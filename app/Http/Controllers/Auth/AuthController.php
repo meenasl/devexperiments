@@ -110,4 +110,9 @@ class AuthController extends Controller
 
         return Redirect('login');
     }
+
+    public function terminate()
+    {
+        echo "hi";
+    }
 }
